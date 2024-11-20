@@ -1,0 +1,419 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<!-- meta data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!--font-family-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- title of site -->
+	<title>redbrick</title>
+
+	<!-- For favicon png -->
+	<link rel="shortcut icon" type="image/icon" href="assets/logo/rb-fav.png"/>
+   
+	<!--font-awesome.min.css-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!--linear icon css-->
+	<link rel="stylesheet" href="assets/css/linearicons.css">
+
+	<!--animate.css-->
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<!--flaticon.css-->
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+
+	<!--slick.css-->
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+	
+	<!--bootstrap.min.css-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+	
+	<!--style.css-->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="assets/css/media.css">
+	
+	<link rel="stylesheet" href="assets/css/login.css">
+
+	<!--responsive.css-->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+	
+
+
+		<style>
+			.dropbtn {
+			  background-color: #64aabb;
+			  color: white;
+			  padding: 10px;
+			  font-size: 10px;
+			  border: none;
+			  font-size: 16px;
+			  border-radius: 5px;
+			  margin-top: 20px;
+			}
+			
+			.dropdown {
+			  position: relative;
+			  display: inline-block;
+			}
+			
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  background-color: #f1f1f1;
+			  min-width: 160px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+			
+			.dropdown-content a {
+			  color: rgb(140, 137, 137);
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  display: block;
+			  
+			}
+			
+			.dropdown-content a:hover {background-color: #ddd;}
+			
+			.dropdown:hover .dropdown-content {display: block;}
+			
+			.dropdown:hover .dropbtn {background-color: #b72a12;}
+		</style>
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+
+		<!-- top-area Start -->
+		<section class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html"><img src="../assets/images/counter/logo.png" width="150px" /></a>
+
+
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                    <li class=""><a href="index.html">Home</a></li>
+			                    <li class=""><a href="about.html">About Us</a></li>
+								<li class="dropdown">
+									<a href="">Services
+										<div class="dropdown-content">
+											<a href="construction.html">New Construction</a>
+											<a href="interior.html">Interior</a>
+											<a href="renovation.html">Renovation</a>
+											<a href="hydraulic.html">Hydraulic Lift</a>
+											<a href="solar.html">Solar System</a>
+								  	    </div>
+                                    </a>    
+								</li>
+			                    
+			                    <li class="active"><a href="contact.html">Contact</a></li>
+								<li class="" id="nav-phone-style"><a href="tel:+919063758964" title="" ><i class="fa-solid fa-phone-volume"></i>+91 9063758964</a></li>
+								<li class="" ><button class="btn btn-style-quote" onclick="openForm()"><a href="mail.html" style="color:#fff;">Get Quote</a></button></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		    <div class="clearfix"></div>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero-contact">
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<!-- <h2>Contact <br> Us</h2>
+					<p>
+						Have a question? Reach us today... 
+					</p> -->
+				</div>
+				
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+            
+		<!--blog start -->
+		<section>
+			<div class="container">
+				<div class="section-header">
+					<h2>Get in Touch</h2>
+					<p>We’d love to hear from you! Whether you have a project in mind, need advice, or simply want to learn more about our services, our team at GoBuilder is here to help. Reach out to us through any of the options below, and we’ll get back to you as soon as possible.</p>
+				</div><!--/.section-header-->
+				<div class="blog-content">
+					<div class="row">
+                         <!--  Start contact-info  -->
+            <section class="tc-contact-info-style1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="info-cards" style="background:#103d63; padding: 30px 10px 50px 30px;border-radius: 10px;">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="item mt-50">
+                                            <h6 class="fsz-20 mb-15 fw-bold" style="color:#f73818;font-weight:400;margin-bottom:10px;"> Redbrick Protech Private Limitted </h6>
+                                            <ul class="color-666 lh-6 mt-15">
+                                                <li> <a href="#" style="font-size:14px;color:#e8e6e6;"> eSeva Lane, KPHB 3rd phase, Hyderabad</a> </li>
+                                                <li> <a href="#" style="font-size:14px;color:#e8e6e6;"> info@redbrick.in.net </a></li>
+                                                <li> <a href="#" style="font-size:14px;color:#e8e6e6;">+91 90637 58964</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+										<div class="item mt-50">
+											<h6 class="fsz-20 mb-15 fw-bold" style="color:#f73818;font-weight:400;margin-bottom:10px;"> Office Hours</h6>
+											<ul class="color-666 lh-6 mt-15">
+												<li> <a href="#" style="font-size:14px;color:#e8e6e6;"> Monday - Friday: 9:00 AM - 6:00 PM</a> </li>
+												<li> <a href="#" style="font-size:14px;color:#e8e6e6;"> Saturday: 10:00 AM - 4:00 PM</a></li>
+												<li> <a href="#" style="font-size:14px;color:#e8e6e6;">Sunday: Closed</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="social-icons mt-50 text-lg-end">
+											<h6 class="fsz-20 mb-15 fw-bold" style="font-weight:400;margin-bottom:10px;color:#f73818;"> Connect Here</h6>
+											<a href="https://x.com/redbrick355" style="margin:5px;color:#e8e6e6;"> <i class="fab fa-x-twitter"></i> </a>
+											<a href="https://www.facebook.com/profile.php?id=61566961138729" style="margin:5px;color:#e8e6e6;"> <i class="fab fa-facebook-f"></i> </a>
+											<a href="https://www.instagram.com/redbrick.in/" style="margin:5px;color:#e8e6e6;"> <i class="fab fa-instagram"></i> </a>
+											<a href="https://www.linkedin.com/company/104851109/admin/dashboard/" style="margin:5px;color:#e8e6e6;"> <i class="fab fa-linkedin-in"></i> </a>
+											
+										</div>
+									</div>
+                                </div>
+                            </div>
+                        </div>
+						
+                    </div>
+                </div>
+            </section>
+            <!--  End contact-info  -->
+
+            <br /><br />
+            <!--  Start map  -->
+            <section class="tc-map-style1">
+                <div class="map-card wow zoomIn slow" data-wow-delay="0.2s">
+                    <iframe
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=manjeera%20trinity%20corporate&zoom=10&maptype=roadmap"
+                        width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <!--  End map  -->
+						
+					</div>
+				</div>
+			</div><!--/.container-->
+			
+		</section><!--/.blog-->
+		<!--blog end -->
+<br /><br />
+		<!--welcome-hero start -->
+		<section>
+			<div class="container">
+				<div class="section-header">
+					<h2>Talk to our Expert</h2>
+					<div class="container row">
+				
+						<div class="col-lg-2"></div>
+						<div class="col-lg-8" style="background-color: #103d63; padding-top:50px;border-radius: 10px;padding-bottom:30px;">
+								<!-- <div class="container col-25 text-on-image" style="position: relative; text-align: center;"> -->
+								
+									<!-- <img src="../assets/images/welcome-hero/form-bg.png"  style="margin-top: -15%; margin-left: 20%; width:500px;"  />  -->
+										<form action="/login.php" class="" method="post">
+											<div class="row">
+											<div class="col-75">
+												<input type="text" id="fname" name="name" placeholder="Full Name" style="color:#2b2f30;">
+											</div>
+											</div>
+											<div class="row">
+											
+												<div class="col-75">
+													<input type="text" id="lname" name="phonenumber" placeholder="Mobile Number" required  style="color:#2b2f30;">
+												</div>
+											</div>
+											<div class="row">
+											
+												<div class="col-75">
+													<input type="text" id="lname" name="email" placeholder="Email" style="color:#2b2f30;">
+												</div>
+											</div>
+											<div class="row">
+											
+											<div class="col-75">
+												<select id="city" name="city" style="color:#2b2f30;">
+													<option value="hyderabad">Select Your Location</option>
+													<option value="hyderabad">Hyderabad</option>
+													<option value="bangalore">Bangalore</option>
+													<option value="chennai">Chennai</option>
+													<option value="pune">Pune</option>
+													<option value="andhrapradesh">Andhra Pradesh</option>
+													<option value="telangana">Telangana</option>
+													<option value="others">Others</option>
+												
+												</select>
+											</div>
+											
+											</div>
+											<div class="row">
+											
+											<div class="col-75">
+												<select id="country" name="country" style="color:#2b2f30;">
+													<option value="sft1">Construction Type</option>
+													<option value="sft1">Ground Floor</option>
+													<option value="sft2">G+1</option>
+													<option value="sft3">G+2</option>
+													<option value="sft4">G+3</option>
+													<option value="sft5">G+4</option>
+													<option value="sft6">Apartment</option>
+													<option value="sft7">Duplex Villa</option>
+													<option value="sft8">Farm House</option>
+													<option value="sft9">others...</option>
+													<!-- <option value="2200">others...</option> -->
+												</select>
+											</div>
+											</div><br />
+											<div class="row ">
+												<div class="col-75">
+													<a href="mail.html" ><input type="submit" value="Book Free Consultation" value="Send"></a>
+													
+												</div>
+											</div>
+											
+										</form>
+										<br />
+										</div>
+								</div>
+				</div><!--/.section-header-->
+			
+
+		</section><!--/.welcome-hero-->
+		
+		<!--footer start-->
+		<!--footer start-->
+		<footer id="footer"  class="footer" style="background: #443c3c;">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+			           	<div class="col-sm-3">
+			           		 <div class="navbar-header">
+				                <a class="navbar-brand" href="index.html"><span style="color:#fff;"><a class="navbar-brand" href="index.html"><img src="../assets/images/counter/logo.png" width="150px" /></a></a>
+								
+				            </div><!--/.navbar-header-->
+			           	</div><br /><br /><br />
+						<div class="col-sm-3">
+							<h6 style="color:#fff; font-size:14px; line-height:2"><span style="color:#ff545a;">Address:</span> Manjeera Trinity Corporate, eSeva Lane, <br /> 3rd Phase, KPHB, <br /> Hyderabad - 500072</h6>
+							<h6 style="color:#fff; font-size:14px; line-height:2"><span style="color:#ff545a;">Email:</span> info@redbrick.in.net<br /></h6>
+							<h6 style="color:#fff; font-size:14px; line-height:2"><span style="color:#ff545a;">Phone:</span> +91 90637 58964<br /></h6>
+						</div>
+			           	<div class="col-sm-9"> 
+			           		<ul class="footer-menu-item">
+			                    <!-- <li class="scroll"><a href="#works">Index</a></li> -->
+			                    <li class="scroll"><a href="#explore">About</a></li>
+			                    <li class="scroll"><a href="#reviews">Services</a></li>
+			                    <li class="scroll"><a href="#blog">Blog</a></li>
+			                    <li class="scroll"><a href="#contact">Contact</a></li>
+			                </ul><!--/.nav -->
+			           	</div>
+		           </div>
+				</div>
+				<div class="hm-footer-copyright">
+					<div class="row">
+						<div class="col-sm-5">
+							<p>
+								&copy;copyright - 2024 by <a href="https://redbrick.in.net/">@redbrick protech pvt ltd.</a>
+							</p><!--/p-->
+						</div>
+						<div class="col-sm-7">
+							<!-- <i class="fa-regular fa-heart"></i> -->
+							<div class="footer-social">
+								<a href="tel:+91 9063758964"><i class="fa-solid fa-square-phone" style="color:#fff;"></i></a>
+								<a href="https://www.facebook.com/profile.php?id=61566961138729" target="_blank"><i class="fa-brands fa-square-facebook" style="color:#fff;"></i></a>	
+								<a href="https://x.com/redbrick355"><i class="fa-brands fa-square-x-twitter" style="color:#fff;"></i></a>
+								<a href="https://www.linkedin.com/company/104851109/admin/dashboard/" target="_blank"><i class="fa-brands fa-linkedin"  style="color:#fff;"></i></a>
+								<a href="https://www.instagram.com/redbrick.in/" target="_blank"><i class="fa-brands fa-square-instagram"  style="color:#fff;"></i></a>
+							</div>
+						</div>
+						<div id="scroll-top-2">
+							<div class="return-to-top-2" style="margin-left: 105%;">
+								<a style="color:#fff;font-size:50px; color: #008000;" href="https://wa.me/+919063758964" title=""><i class="fa-brands fa-whatsapp"></i></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		     
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
